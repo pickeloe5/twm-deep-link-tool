@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.ts',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'public')
+    path: path.resolve(__dirname, 'docs')
   },
   module: {
     rules: [
